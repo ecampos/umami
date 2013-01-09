@@ -13,6 +13,7 @@
 
 @interface MasterViewController : UITableViewController
 @property (strong, nonatomic) NSArray * list;
+@property (weak, nonatomic) IBOutlet UISearchBar *searchbar;
 
 
 @end

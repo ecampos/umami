@@ -30,16 +30,16 @@
 */
 - (void)configureView
 {
-    _itemNumber = 
+    _itemNumber = 2;
     switch (_itemNumber) {
         case 0:
             _detailDescriptionLabel.text =@"go fuck yourself";
             break;
         case 1:
-            _detailDescriptionLabel.text =@"go fuck yourself moron";
+            _detailDescriptionLabel.text =@"just kidding";
             break;
         case 2:
-            _detailDescriptionLabel.text =@"go fuck yourself you cunt";
+            _detailDescriptionLabel.text =@"we're still friends aren't we?";
             break;
 
             
