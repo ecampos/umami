@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface DetailViewController : UIViewController
+@property int itemNumber;
+@property (weak, nonatomic) IBOutlet UIImageView *picture;
 
 @property (strong, nonatomic) id detailItem;
 

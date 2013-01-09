@@ -13,9 +13,11 @@
 @end
 
 @implementation DetailViewController
+@synthesize picture = _picture;
+@synthesize itemNumber = _itemNumber;
 
 #pragma mark - Managing the detail item
-
+/*
 - (void)setDetailItem:(id)newDetailItem
 {
     if (_detailItem != newDetailItem) {
@@ -25,14 +27,32 @@
         [self configureView];
     }
 }
-
+*/
 - (void)configureView
 {
+    _itemNumber = 
+    switch (_itemNumber) {
+        case 0:
+            _detailDescriptionLabel.text =@"go fuck yourself";
+            break;
+        case 1:
+            _detailDescriptionLabel.text =@"go fuck yourself moron";
+            break;
+        case 2:
+            _detailDescriptionLabel.text =@"go fuck yourself you cunt";
+            break;
+
+            
+        default:
+            _detailDescriptionLabel.text = @"gaping";
+            break;
+    }
     // Update the user interface for the detail item.
 
-    if (self.detailItem) {
+   /* if (self.detailItem) {
         self.detailDescriptionLabel.text = [self.detailItem description];
     }
+    */
 }
 
 - (void)viewDidLoad
