@@ -19,6 +19,7 @@
 		323708791694AAC500D94F09 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 323708771694AAC500D94F09 /* MainStoryboard.storyboard */; };
 		3237087C1694AAC500D94F09 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3237087B1694AAC500D94F09 /* MasterViewController.m */; };
 		3237087F1694AAC500D94F09 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3237087E1694AAC500D94F09 /* DetailViewController.m */; };
+		329B9771169F6ED20082008D /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 329B9770169F6ED20082008D /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,8 @@
 		3237087B1694AAC500D94F09 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		3237087D1694AAC500D94F09 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		3237087E1694AAC500D94F09 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		329B976F169F6ED20082008D /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		329B9770169F6ED20082008D /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +94,8 @@
 				323708771694AAC500D94F09 /* MainStoryboard.storyboard */,
 				3237087A1694AAC500D94F09 /* MasterViewController.h */,
 				3237087B1694AAC500D94F09 /* MasterViewController.m */,
+				329B976F169F6ED20082008D /* TableViewController.h */,
+				329B9770169F6ED20082008D /* TableViewController.m */,
 				3237087D1694AAC500D94F09 /* DetailViewController.h */,
 				3237087E1694AAC500D94F09 /* DetailViewController.m */,
 				323708661694AAC400D94F09 /* Supporting Files */,
@@ -182,6 +187,7 @@
 				323708701694AAC400D94F09 /* AppDelegate.m in Sources */,
 				3237087C1694AAC500D94F09 /* MasterViewController.m in Sources */,
 				3237087F1694AAC500D94F09 /* DetailViewController.m in Sources */,
+				329B9771169F6ED20082008D /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +304,7 @@
 				323708841694AAC500D94F09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

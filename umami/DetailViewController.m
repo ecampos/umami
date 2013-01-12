@@ -13,8 +13,11 @@
 @end
 
 @implementation DetailViewController
-@synthesize picture = _picture;
-@synthesize itemNumber = _itemNumber;
+@synthesize heroImage = _heroImage;
+@synthesize heroName = _heroName;
+@synthesize content = _content;
+
+
 
 #pragma mark - Managing the detail item
 /*
@@ -30,22 +33,7 @@
 */
 - (void)configureView
 {
-    _itemNumber = 
-    switch (_itemNumber) {
-        case 0:
-            _detailDescriptionLabel.text =@"go fuck yourself";
-            break;
-        case 1:
-            _detailDescriptionLabel.text =@"go fuck yourself moron";
-            break;
-        case 2:
-            _detailDescriptionLabel.text =@"go fuck yourself you cunt";
-            break;
 
-            
-        default:
-            _detailDescriptionLabel.text = @"gaping";
-            break;
     }
     // Update the user interface for the detail item.
 
@@ -53,12 +41,15 @@
         self.detailDescriptionLabel.text = [self.detailItem description];
     }
     */
-}
+
 
 - (void)viewDidLoad
 {
+    NSString *TODO = @"TODO";
+    _heroImage.image = [UIImage imageNamed:TODO];
+    _heroName.text = TODO;
+    _content.text = TODO;
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
     [self configureView];
 }
 

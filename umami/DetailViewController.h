@@ -9,10 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface DetailViewController : UIViewController
-@property int itemNumber;
-@property (weak, nonatomic) IBOutlet UIImageView *picture;
 
-@property (strong, nonatomic) id detailItem;
+@property (weak, nonatomic) IBOutlet UIImageView *heroImage;
+@property (weak, nonatomic) IBOutlet UILabel *content;
+@property (weak, nonatomic) IBOutlet UILabel *heroName;
 
-@property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
 @end
